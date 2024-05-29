@@ -30,3 +30,29 @@ during the interview.
   e. Scaling Horizontally (as IOT device getting popular / not popular)
   f. Schema Less future proofing (capture more/less data as business changes)
 ## Design
+
+IoT Sensors
+Azure IoT Hub - Ingest / Transform Telemetry
+Azure Stream Analytics -> Structured Streaming
+Azure Cosmos DB -> Hot Store, Cold Store via Synapse Link or RDBMS for more analytics
+Azure Synapse Analytics via Synapse Link -> For cold storage or live dashboard
+Microsoft Power BI for dashboard 
+Web Application/Mobile Application (Angular/React) for analytical dashboard, field engineers / help desk
+
+
+Task 1
+Capture data to hot store.
+Send a real time feedback back to the device for monitoring like if there is a some sensor turn on the camera.
+We need this data to present to the field engineer or to higher management. One or more dashboards.
+Aggregating high level data so that they can get a good picture of overall health and drill down to the lower part so that they can identify problem areas.
+
+Things to consider for designing
+Hot Store should be horizontally scalable. So as demand increases you can add more and more and vice versa.
+Hot Store supports some change driven event system so that you can see some data points and react to it.
+Hot Store should be schema agnostic, so that future generations of device can start capturing more and more telemetry data.
+Built analytics on top of the hot store so that you can run live checks for the system.
+
+IOT Hub - Acts as a gateway collecting the data from the device -> 
+Azure Synapse Studio -> Query all the files you need, see the transactions happening real time. 
+
+
