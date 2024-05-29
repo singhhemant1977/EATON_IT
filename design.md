@@ -23,10 +23,10 @@ Use whatever tools or design you prefer, Miro, Visio, boxes and arrows, C4, SysM
 during the interview.
 
 ## Tradeoffs
-  Storage (Hot / Cold) 
-  Real Time Analytics 
-  Abnormality Detection
-  Notification escalation - Help Desk / Field Engineers
-  Scaling Horizontally (as IOT device getting popular / not popular)
-  Schema Less so that future design
+  a. Storage (Hot / Cold) 
+  b. Real Time Analytics 
+  c. Abnormality Detection
+  d. Notification escalation - Help Desk / Field Engineers
+  e. Scaling Horizontally (as IOT device getting popular / not popular)
+  f. Schema Less future proofing (capture more/less data as business changes)
 ## Design
