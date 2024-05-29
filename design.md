@@ -23,21 +23,25 @@ Use whatever tools or design you prefer, Miro, Visio, boxes and arrows, C4, SysM
 during the interview.
 
 ## Tradeoffs
-  a. Storage (Hot / Cold) 
-  b. Real Time Analytics 
-  c. Abnormality Detection
-  d. Notification escalation - Help Desk / Field Engineers
-  e. Scaling Horizontally (as IOT device getting popular / not popular)
-  f. Schema Less future proofing (capture more/less data as business changes)
-## Design
-
-IoT Sensors
-Azure IoT Hub - Ingest / Transform Telemetry
-Azure Stream Analytics -> Structured Streaming
-Azure Cosmos DB -> Hot Store, Cold Store via Synapse Link or RDBMS for more analytics
-Azure Synapse Analytics via Synapse Link -> For cold storage or live dashboard
-Microsoft Power BI for dashboard 
-Web Application/Mobile Application (Angular/React) for analytical dashboard, field engineers / help desk
+<ol>
+  <li>Storage (Hot / Cold)</li>
+  <li>Real Time Analytics</li>
+  <li>Abnormality Detection</li>
+  <li>Notification escalation - Help Desk / Field Engineers</li>
+  <li>Scaling Horizontally (as IOT device getting popular / not popular)</li>
+  <li>Schema Less future proofing (capture more/less data as business changes)</li>
+</ol>
+## Tools 
+| Tools      | Description |
+| :---        |    :----:   |      
+| IoT Device      | Device that will capture data      | 
+| Azure IoT Hub   | Ingest / Transform Telemetry data        | 
+| Azure Stream Analytics   | Structured Streaming        |
+| Azure Cosmos DB   | Hot Store / Cold Store via Synapse Link        |
+| SQL Server DB  | Cold Storage        |
+| Azure Synapse Analytics via Synapse Link   | Event driven dashboard live, can upload json file to see/analyze data        |
+| Web Application/Mobile Application (Angular/React)   | Analytical Dashboard / Users (mgmt/field engg / help desk)       |
+| Application Insights   | Monitoring application health       |
 
 
 Task 1
