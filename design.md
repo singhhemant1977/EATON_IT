@@ -32,6 +32,7 @@ during the interview.
   <li>Schema Less future proofing (capture more/less data as business changes)</li>
 </ol>
 ## Tools 
+
 | Tools      | Description |
 | :---        |    :----:   |      
 | IoT Device      | Device that will capture data      | 
@@ -43,6 +44,7 @@ during the interview.
 | Web Application/Mobile Application (Angular/React)   | Analytical Dashboard / Users (mgmt/field engg / help desk)       |
 | Application Insights   | Monitoring application health       |
 
+Azure Synapse Analytics : Code in T-sql, Python, PowerBI, Json File Uploader (Query everything)
 
 Task 1
 Capture data to hot store.
