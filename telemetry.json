@@ -1,0 +1,136 @@
+[
+  {
+    "connectionDeviceId": "my_first_sensor",
+    "connectionDeviceGenerationId": "1423423432432432434",
+    "eventProcessedUtcTime": "2024-05-28T21:46:04.078338Z",
+    "eventEnqueuedUtcTime": "2024-05-28T21:46:04.078338Z",
+    "customer_type": "residential",
+    "sensors": [
+      {
+        "sensor_type_name": "temperature",
+        "sensor_type_unit": "celcius",
+        "sensor_type_value": 63,
+        "sensor_type_value_type": "float"
+      },
+      {
+        "sensor_type_name": "voltage",
+        "sensor_type_unit": "volt",
+        "sensor_type_value": 5,
+        "sensor_type_value_type": "float"
+      },
+      {
+        "sensor_type_name": "power",
+        "sensor_type_unit": "watt",
+        "sensor_type_value": 10,
+        "sensor_type_value_type": "float"
+      },
+      {
+        "sensor_type_name": "average_voltage",
+        "sensor_type_unit": "volt",
+        "sensor_type_value": 10,
+        "sensor_type_value_type": "float"
+      },
+      {
+        "sensor_type_name": "average_current",
+        "sensor_type_unit": "watt",
+        "sensor_type_value": 10,
+        "sensor_type_value_type": "float"
+      }
+    ],
+    "switches": [
+      {
+        "switch_DeviceId": "first_switch_device",
+        "switch_DeviceGenerationId": "2343432435233243",
+        "switch_state": "on",
+        "switch_dimmer_pct": 50
+      },
+      {
+        "switch_DeviceId": "second_switch_device",
+        "switch_DeviceGenerationId": "3343432435233243",
+        "switch_state": "off",
+        "switch_dimmer_pct": 50
+      },
+      {
+        "switch_DeviceId": "third_switch_device",
+        "switch_DeviceGenerationId": "4343432435233243",
+        "switch_state": "on",
+        "switch_dimmer_pct": 50
+      }
+    ],
+    "iotHub": {
+      "messageId": null,
+      "connectionDeviceId": "my_first_sensor",
+      "connectionDeviceGenerationId": "1423423432432432434",
+      "correlationId": null,
+      "enqueuedTime": "2024-05-28T21:46:04.078338Z",
+      "streamId": null
+    }
+  },
+  {
+    "connectionDeviceId": "my_second_sensor",
+    "connectionDeviceGenerationId": "1423423432432432434",
+    "eventProcessedUtcTime": "2024-05-28T21:46:04.078338Z",
+    "eventEnqueuedUtcTime": "2024-05-28T21:46:04.078338Z",
+    "customer_type": "business",
+    "sensors": [
+      {
+        "sensor_type_name": "temperature",
+        "sensor_type_unit": "celcius",
+        "sensor_type_value": 63,
+        "sensor_type_value_type": "float"
+      },
+      {
+        "sensor_type_name": "voltage",
+        "sensor_type_unit": "volt",
+        "sensor_type_value": 5,
+        "sensor_type_value_type": "float"
+      },
+      {
+        "sensor_type_name": "power",
+        "sensor_type_unit": "watt",
+        "sensor_type_value": 10,
+        "sensor_type_value_type": "float"
+      },
+      {
+        "sensor_type_name": "average_voltage",
+        "sensor_type_unit": "volt",
+        "sensor_type_value": 10,
+        "sensor_type_value_type": "float"
+      },
+      {
+        "sensor_type_name": "average_current",
+        "sensor_type_unit": "watt",
+        "sensor_type_value": 10,
+        "sensor_type_value_type": "float"
+      }
+    ],
+    "switches": [
+      {
+        "switch_DeviceId": "first_switch_device",
+        "switch_DeviceGenerationId": "2343432435233243",
+        "switch_state": "on",
+        "switch_dimmer_pct": 50
+      },
+      {
+        "switch_DeviceId": "second_switch_device",
+        "switch_DeviceGenerationId": "3343432435233243",
+        "switch_state": "off",
+        "switch_dimmer_pct": 50
+      },
+      {
+        "switch_DeviceId": "third_switch_device",
+        "switch_DeviceGenerationId": "4343432435233243",
+        "switch_state": "on",
+        "switch_dimmer_pct": 50
+      }
+    ],
+    "iotHub": {
+      "messageId": null,
+      "connectionDeviceId": "my_second_sensor",
+      "connectionDeviceGenerationId": "1423423432432432434",
+      "correlationId": null,
+      "enqueuedTime": "2024-05-28T21:46:04.078338Z",
+      "streamId": null
+    }
+  }
+]
